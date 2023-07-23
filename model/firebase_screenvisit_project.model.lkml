@@ -27,3 +27,6 @@ explore: events_intraday {
     relationship: one_to_many
   }
 }
+
+
+explore: countries_cites {}
