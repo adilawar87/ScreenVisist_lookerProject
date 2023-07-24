@@ -423,6 +423,7 @@ view: events_intraday {
   measure: Total_Users {
     type: count_distinct
     sql: ${user_pseudo_id};;
+    drill_fields: [detail*]
   }
 
   # ----- Sets of fields for drilling ------

@@ -440,7 +440,7 @@ view: com_example_screentime_android_realtime {
   }
   measure: count {
     type: count
-    drill_fields: [user__name, operating_system__name, unity_metadata__graphics_device_name]
+    drill_fields: [event_id, device__model, application__display_version,issue_title]
   }
 }
 
