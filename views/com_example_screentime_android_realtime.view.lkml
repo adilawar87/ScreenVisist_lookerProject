@@ -131,6 +131,7 @@ view: com_example_screentime_android_realtime {
   }
   dimension: event_id {
     type: string
+    primary_key: yes
     description: "The unique ID of this event."
     sql: ${TABLE}.event_id ;;
   }
