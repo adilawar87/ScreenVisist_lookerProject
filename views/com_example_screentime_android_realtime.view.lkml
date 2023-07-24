@@ -138,7 +138,7 @@ view: com_example_screentime_android_realtime {
   dimension_group: event_timestamp {
     type: time
     description: "The time of the event occurrence."
-    timeframes: [raw, time, date, week, month, quarter, year]
+    timeframes: [raw, time, date, week, month, quarter, year,time_of_day]
     sql: ${TABLE}.event_timestamp ;;
   }
   dimension: exceptions {
